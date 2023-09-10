@@ -1,12 +1,9 @@
 package model.entities;
 
-import model.EmprestimoLivro;
-import model.entities.abstracts.Emprestimo;
 import model.entities.abstracts.Negocio;
 import model.enums.StatusLivro;
 import model.enums.TipoNegocio;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
