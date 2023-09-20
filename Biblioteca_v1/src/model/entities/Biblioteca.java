@@ -71,7 +71,7 @@ public class Biblioteca extends Negocio {
         }
         return "Nao ha cliente com o nome " + clienteNome;
     }
-    public String exibirDadosClientes(Cliente cliente){
+    public String exibirDadosCliente(Cliente cliente){
         String clienteNome = cliente.getNome();
 
         for(String[] dadosCliente : listCliente){
